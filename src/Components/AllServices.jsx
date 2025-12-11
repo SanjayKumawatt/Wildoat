@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  ArrowRight, Globe, Layout, BarChart3, Bot, ShieldCheck, 
-  Share2, Mail, PenTool, MousePointerClick, Users, 
-  Search, Megaphone, LineChart, Zap, Workflow 
+import {
+  ArrowRight, Globe, Layout, BarChart3, Bot, ShieldCheck,
+  Share2, Mail, PenTool, MousePointerClick, Users,
+  Search, Megaphone, LineChart, Zap, Workflow,
+  Laptop,
+  Smartphone
 } from 'lucide-react';
 
 const AllServices = () => {
@@ -92,6 +94,22 @@ const AllServices = () => {
       desc: "Maximize your ROI with expertly managed Google Ads campaigns that drive qualified traffic and conversions to your business.",
       link: "/services/ads-management"
     },
+    {
+      icon: <Laptop size={32} className="text-blue-600" />,
+      bg: "bg-blue-100",
+      title: "Software Development",
+      desc: "Build powerful and scalable software solutions tailored to your business needs with modern technologies.",
+      link: "/services/software-development"
+    },
+
+    {
+      icon: <Smartphone size={32} className="text-green-600" />,
+      bg: "bg-green-100",
+      title: "Mobile App Development",
+      desc: "Create high-performance Android and iOS mobile apps with seamless user experience and modern designs.",
+      link: "/services/mobile-app-development"
+    }
+
     // {
     //   icon: <LineChart size={32} className="text-rose-600" />,
     //   bg: "bg-rose-100",
@@ -118,7 +136,7 @@ const AllServices = () => {
   return (
     <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-gray-100 pb-6">
           <div>
@@ -133,8 +151,8 @@ const AllServices = () => {
         {/* Grid Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Link 
-              key={index} 
+            <Link
+              key={index}
               to={service.link}
               className="group relative bg-white rounded-2xl p-8 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >

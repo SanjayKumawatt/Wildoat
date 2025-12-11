@@ -141,6 +141,21 @@ const Footer = () => {
                   Cyber Security
                 </Link>
               </li>
+              <li>
+                <Link to="/services/mobile-app-development" className="text-gray-500 hover:text-[#FF6B35] transition-colors text-sm font-medium">
+                  Mobile App Development
+                </Link>
+              </li>
+              <li>
+                <Link to="/services/software-development" className="text-gray-500 hover:text-[#FF6B35] transition-colors text-sm font-medium">
+                  Software Development
+                </Link>
+              </li>
+              <li>
+                <Link to="/services/ads-management" className="text-gray-500 hover:text-[#FF6B35] transition-colors text-sm font-medium">
+                  Ads Management
+                </Link>
+              </li>
             </ul>
           </div>
 

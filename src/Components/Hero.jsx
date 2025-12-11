@@ -31,7 +31,7 @@ const Hero = () => {
 
               {/* Company Tag */}
               <span className="text-gray-500 font-medium text-sm sm:text-base">
-                — Wildoat Tech
+                - Wildoat Tech
               </span>
             </div>
           </div>

@@ -43,14 +43,14 @@ const App = () => {
           path:"/services/software-development",
           element:<SoftwareDevelopment/>
         },
-        {
-          path:"/services/dating-app-development",
-          element:<DatingAppDevelopment/>
-        },
-        {
-          path:"/services/ai-character-dating",
-          element:<AiCharacterDating/>
-        },
+        // {
+        //   path:"/services/dating-app-development",
+        //   element:<DatingAppDevelopment/>
+        // },
+        // {
+        //   path:"/services/ai-character-dating",
+        //   element:<AiCharacterDating/>
+        // },
         {
           path:"/services/data-analysis",
           element:<DataAnalysis/>

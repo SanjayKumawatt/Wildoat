@@ -85,7 +85,7 @@ const DataAnalysis = () => {
                 </button>
               </Link>
               <span className="text-sm font-semibold text-gray-400 tracking-wider hidden sm:block">
-                — WILDOAT TECH
+                - WILDOAT TECH
               </span>
             </div>
           </div>

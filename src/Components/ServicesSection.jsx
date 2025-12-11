@@ -31,7 +31,7 @@ const ServicesSection = () => {
           <div className="flex flex-col h-full justify-between space-y-12">
             <div>
               <h2 className="text-4xl sm:text-5xl lg:text-[3.5rem] leading-[1.1] font-bold tracking-tight">
-                Redefining Possibilities with Next-Gen Tech — <br className="hidden lg:block" />
+                Redefining Possibilities with Next-Gen Tech - <br className="hidden lg:block" />
                 <span className="text-gray-300">Faster, Smarter, and Built for Scale.</span>
               </h2>
             </div>
