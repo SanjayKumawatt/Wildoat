@@ -52,7 +52,7 @@ const SoftwareDevelopment = () => {
       title: "Maintenance & DevOps",
       desc: "Monitoring, updates, and cost-optimized infrastructure.",
       icon: <Settings className="w-6 h-6" />,
-      points: ["AWS/Azure/GCP", "Terraform", "Autoscaling", "Cost Optimization"]
+      points: [ "Terraform", "Autoscaling", "Cost Optimization"]
     }
   ];
 
